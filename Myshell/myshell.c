@@ -1,24 +1,4 @@
-/*
- *  Assignment #3: Unix Shell with redirects and pipeCounters
- *  PID: 4012951
- *  Katherine Schmidt
- *  Program Description: The purpose of this assignment is to learn to
-                         develop multi-process programs. You are expected to
-                         extend the myshell.c program and add pipeCounterlines and I/O
-                         redirections. In particular, your shell program should
-                         recognize the following:
 
-                            1. > Redirect stdout from a command to a file. If the
-                                 file already exist, it will be erased and overwritten
-                                 without warning
-                            2. >> Append stdout from a command to a file if the
-                                  file exists; if the file does not exist, create
-                                  one
-                            3. < Redirect the stdin to be from a file, rather
-                                 than the keyboard
-                            4. | Pass the stdout of one command to another for
-                                 further processing
- */
 
  #include <fcntl.h>
  #include <stdio.h>
