@@ -1,17 +1,4 @@
-/*
-*   Program Description: Maniputlate an image from a 24-bit uncompressed bmp file.
-*						 We create two methods called enlarge and rotate. Enlarge
-*						 is used to enlarge the image by the user inputted integer.
-*						 Rotate is used to rotate the image either clockwise or
-*						 counter-clockwise. Rotate takes the user inputted integer
-*						 (which must be a multiple of 90) and depending on the sign
-*						 of the integer, it is rotate either clockwise (positive)
-*						 or counter-clockwise (negative). After all options are
-*						 executed, the result is put into an output bmp file
-*   PID: 4012951
-*   Katherine Schmidt
-*   I hereby certify that this is my own work
-*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <errno.h>
