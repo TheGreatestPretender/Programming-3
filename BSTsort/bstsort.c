@@ -1,23 +1,4 @@
-/**
-* Assignment #1: BST Sort
-* Program Description: The purpose of this program is to use file input and output
-*                       to sort user input. The user has several options:
-*                           1. Give an input file that will be sorted on stdout
-*                           2. Be prompted to enter strings that will be sorted
-*                               on stdout
-*                           3. Give an input and output file where the sorted
-*                               version of the input file will be placed into the
-*                               output file
-*                           4. Only use the ./bstsort command which requires the
-*                               user to use stdin to create several strings to be
-*                               sorted on stdout
-*                       The user will also have an option to sort the output in
-*                       a case wise manner, which puts a captial letter before a
-*                       lower case letter. We use the Binary Search Tree data
-*                       structure to traverse each node in an effective manor.
-* PID: 4012951
-* I hereby certify that this is my own work.
-*/
+
 
 #include <stdio.h>
 #include <string.h>
